@@ -1,0 +1,23 @@
+{
+  "name": "continuous-integration-team-scenarios",
+  "version": "1.0.0",
+  "description": "The template repository for the Common Continuous Integration Team Scenarios  course on Learning Lab.",
+  "main": "ci.test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntaranov/continuous-integration-team-scenarios-template.git"
+  },
+  "author": "Nick Taranov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntaranov/continuous-integration-team-scenarios-template/issues"
+  },
+  "homepage": "https://github.com/ntaranov/continuous-integration-team-scenarios-template#readme"
+}
