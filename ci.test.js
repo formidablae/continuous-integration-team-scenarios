@@ -39,6 +39,10 @@ describe('CI sequence', () => {
   it('7. If everything is good in production for some period of time, merge changes to master.', () => {
     expect(/.*merge.*to\s+master.*/ig.test(fileContents)).toBe(true);
   });
+
+  it('does not contain the sneaky bug', () => {
+    expect( /.*sneaky\s+bug.*/gi.test(fileContents)).toBe(false);
+  });
   // TODO <= add the tests between these comments
 
 });
